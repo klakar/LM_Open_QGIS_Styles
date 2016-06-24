@@ -13,6 +13,7 @@
       <category render="true" symbol="0" value="Sankmark, normal" label="Sankmark, normal"/>
       <category render="true" symbol="1" value="Sankmark, svrframkomlig" label="Sankmark, svrframkomlig"/>
       <category render="true" symbol="2" value="Sankmark, torvtkt" label="Sankmark, torvtkt"/>
+      <category render="true" symbol="3" value="" label=""/>
     </categories>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
@@ -111,6 +112,42 @@
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="181,154,121,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="4"/>
+              <prop k="line_width_unit" v="MapUnit"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+        <layer pass="0" class="LinePatternFill" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="31,120,180,255"/>
+          <prop k="distance" v="25"/>
+          <prop k="distance_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="distance_unit" v="MapUnit"/>
+          <prop k="line_width" v="0.26"/>
+          <prop k="line_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="line_width_unit" v="MapUnit"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="@3@0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="31,120,180,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="4"/>
               <prop k="line_width_unit" v="MapUnit"/>
